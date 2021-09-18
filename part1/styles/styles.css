@@ -14,20 +14,17 @@ h3{
     font-weight: bold;
 
 }
+/* */
 p:first-of-type::first-letter{
     font-size: 30px;
 }
 
-#testimonial1{
+#testimonial1,#testimonial2{
     font-style: italic;
-    margin: 50px;
+    margin-left: 50px;
     
 }
 
-#testimonial2{
-    font-style: italic;
-    margin: 50px;
-}
 /*Unvisited Link*/
 a[href^='http']:link{
     color:green;
