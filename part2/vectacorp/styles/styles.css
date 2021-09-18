@@ -1,0 +1,114 @@
+body{
+    width:960px; 
+    margin: 2px; ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:20px;
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 150px;
+    margin-block: 20px;
+
+    
+}
+/*headings*/
+.heading{
+    color:#CC1C0D;
+    background-color: #DFE3E6 ;
+    border: 1px solid #929CA4;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding-left: 10px;
+
+}
+
+/*bullets not present on links*/
+ul.a {
+    list-style-type: none;
+    text-align:left;
+    list-style-position: outside;
+   padding-left: 0pt;
+    
+}
+/*bullets present on  inner points in solution page*/
+ul.b{
+    list-style-position: outside;
+}
+
+ul.c{
+    list-style-position: outside;
+    list-style-type: none;
+
+}
+
+/*all the links are colored red*/
+a:link, a:visited{
+    color:#CC1C0D;
+}
+/*styling image on about us*/
+img.u{
+    border-radius: 40px;
+    border:1px solid #CC1C0D;
+    margin-left:0;
+    margin-right: 20px;
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+    
+
+}
+#div1{
+     border-radius: 10px;
+     border-bottom: springgreen;
+     border: 2px solid #929CA4;
+     text-align: center;
+ }
+ #div2{
+    border-radius: 10px;
+    border-bottom: springgreen;
+    border: 2px solid #929CA4;
+    text-align: center;
+    box-shadow:#929CA4 ;
+}
+
+#div3{
+    border-radius: 10px;
+    border-bottom-color: springgreen;
+    border: 2px solid #929CA4;
+    text-align: center;
+}
+
+#div4{
+    border-radius: 10px;
+    border-bottom: springgreen;
+    border: 2px solid #929CA4;
+    text-align: center;
+}
+
+.div1_in{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 8px solid #CC1C0D;
+}
+
+.div2_in{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 8px solid #37A4A4;
+}
+
+.div3_in{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 8px solid #685288;
+}
+
+.div4_in{
+    padding-bottom: 16px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 8px solid #000000;
+}
+
